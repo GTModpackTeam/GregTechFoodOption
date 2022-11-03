@@ -35,11 +35,6 @@ public class MetaTileEntityBakingOven extends RecipeMapPrimitiveMultiblockContro
         super(metaTileEntityId, GTFORecipeMaps.BAKING_OVEN_RECIPES);
     }
 
-    @Override
-    public int getLightValueForPart(IMultiblockPart sourcePart) {
-        return sourcePart == null && recipeMapWorkable.isActive() ? 15 : 0;
-    }
-
     protected IBlockState getCasingState() {
         return GTFOMetaBlocks.GTFO_CASING.getState(GTFOBlockCasing.CasingType.ADOBE_BRICKS);
     }

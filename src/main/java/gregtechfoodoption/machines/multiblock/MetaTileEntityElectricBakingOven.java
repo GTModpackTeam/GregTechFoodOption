@@ -318,11 +318,6 @@ public class MetaTileEntityElectricBakingOven extends RecipeMapMultiblockControl
         return recipe.getProperty(ElectricBakingOvenRecipeBuilder.TemperatureProperty.getInstance(), 0) == temp;
     }
 
-    @Override
-    public int getLightValueForPart(IMultiblockPart sourcePart) {
-        return sourcePart == null && temp > 300 ? 15 : 0;
-    }
-
     private class ElectricBakingOvenLogic extends MultiblockRecipeLogic {
         public ElectricBakingOvenLogic(RecipeMapMultiblockController tileEntity) {
             super(tileEntity);
