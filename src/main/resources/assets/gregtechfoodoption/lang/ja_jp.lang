@@ -33,9 +33,7 @@ material.gtfo_acetoin=アセトイン
 material.gtfo_1,4-butynediol=1,4-ブチンジオール
 material.gtfo_popcorn_flavoring_mixture=ポップコーン味付け用混合物
 material.gtfo_2-acetylpyridine=2-アセチルピリジン
-material.gtfo_hydrogen_cyanite=シアン化水素
 
-# NuclearCraft
 metaitem.chocolate_liquor_dutched_pressed_crushed.name=オランダ式の圧搾をしたチョコレートリカー
 metaitem.chocolate_liquor_pressed_crushed.name=圧搾したチョコレートリカー
 metaitem.cracker_graham_ungraded_plate.name=未選別のグラハムクラッカー
@@ -72,7 +70,6 @@ metaitem.food.smore.gustwo.name=マルチサモングランドスモア
 metaitem.food.smore.gusfour.name=オールサモングオムニスモア
 metaitem.food.smore.heartofthesmogus.name=サモンガスの心
 
-# ActuallyAdditions
 metaitem.basic_coffee_unsorted_gem_chipped.name=未分類の生コーヒー豆
 metaitem.basic_coffee_large_gem_chipped.name=生コーヒー豆 (大)
 metaitem.basic_coffee_small_gem_chipped.name=生コーヒー豆 (小)
@@ -97,8 +94,6 @@ metaitem.component.thermos.cap.name=魔法瓶の蓋
 metaitem.component.thermos.casing_leached.name=ひび割れた魔法瓶の容器
 metaitem.component.thermos.used.name=中古の魔法瓶
 metaitem.component.thermos.new.name=魔法瓶
-
-# GCYS
 metaitem.lithium_bromide_dust.name=臭化リチウム
 metaitem.titanium_dichloride_dust.name=二塩化チタニウム
 metaitem.nontoxic_polymoscovium_pentahalide_plate_curved.name=無毒性ポリモスコビウムペンタハライドの曲げ板
@@ -159,30 +154,27 @@ material.gtfo_tetrabromomoscovium_trichloroxenon_complex=四臭化モスコビ�
 material.gtfo_trimethylmoscovide=トリメチルモスコビウム
 material.gtfo_chlorine_fluoride=フッ化塩素
 material.gtfo_tribromochloromoscovium_trichloroxenon_complex=三臭化塩化モスコビウム-三塩化キセノン複合体
-death.attack.withdrawal=%1$s died from withdrawal.
-
-# Potion
+death.attack.withdrawal=%1$s died from withdrawal. //TODO
 gregtechfoodoption.potion.creativity=クリエ飛行
 gregtechfoodoption.potion.stepassist=自動ジャンプ
-# unused?
-gregtechfoodoption.potion.addiction=Addiction
-gregtechfoodoption.potion.withdrawal=Withdrawal
+gregtechfoodoption.potion.addiction=Addiction  //TODO
+gregtechfoodoption.potion.withdrawal=Withdrawal  //TODO
 
 gregtechfoodoption.machine.bioreactor.hv.name=発展型小型バイオリアクター II
 gregtechfoodoption.machine.bioreactor.ev.name=発展型小型バイオリアクター III
 gregtechfoodoption.machine.bioreactor.iv.name=発展型小型バイオリアクター
 metaitem.bacillus.culture.name=枯草菌菌床
 metaitem.lactobacillus.culture.name=ラクトバチルスペントーシス菌床
-metaitem.food.etirps.name=Etirps™
+metaitem.food.etirps.name=Etirps™  //TODO
 metaitem.food.lemon.name=レモン
 metaitem.food.lime.name=ライム
 metaitem.food.sparkling_water.name=スパークリングウォーター
 metaitem.component.plastic_bottle.name=プラボトル
 metaitem.food.apple_hard_candy.name=リンゴのハードキャンディ
 metaitem.component.cored_apple.name=かじったリンゴ
-metaitem.hard_candy_plate_dense.name=Hard Candy Resin
-metaitem.hard_candy_plate.name=Hard Candy Sheet
-metaitem.crushed_poppy_dust.name=Crushed Poppy
+metaitem.hard_candy_plate_dense.name=Hard Candy Resin  //TODO
+metaitem.hard_candy_plate.name=Hard Candy Sheet  //TODO
+metaitem.crushed_poppy_dust.name=Crushed Poppy  //TODO
 metaitem.diphenylamine_dust.name=ジフェニルアミン
 metaitem.phenothiazine_dust.name=フェノチアジン
 metaitem.codeine_dust.name=コデイン
@@ -218,7 +210,7 @@ material.gtfo_10-phenothiazine-2-propyl_chloride=10-フェノチアジン-2-プ�
 material.gtfo_hfcs_solution=高果糖コーンシロップ溶液
 material.gtfo_glucose_solution=グルコース溶液
 material.gtfo_apple_syrup=リンゴシロップ
-material.gtfo_etirps=Etirps™
+material.gtfo_etirps=Etirps™  //TODO
 
 gregtechfoodoption.machine.slicer.lv.name=基本型スライス機
 gregtechfoodoption.machine.slicer.mv.name=発展型スライス機
@@ -258,7 +250,7 @@ metaitem.food.bag_of_chips.tooltip=大量の炭水化物と一緒に
 metaitem.food.syals.name=ポテトチップス (袋)
 metaitem.food.syals.tooltip=おいしい空気で満たされている
 metaitem.food.french_fries.name=フライドポテト
-metaitem.food.french_fries.tooltip=Now included with Frenchmen!
+metaitem.food.french_fries.tooltip=Now included with Frenchmen! //TODO
 metaitem.component.bag_used.name=紙袋 (ゴミ)
 metaitem.component.potato.fried_strip.name=フライドポテト
 metaitem.component.potato.blanched_strip.name=ブランチングした細切りジャガイモ
@@ -348,7 +340,7 @@ metaitem.food.sandwich.bacon.tooltip=「究極」のサンドウィッチ (infin
 metaitem.food.sandwich.steak.tooltip=蒸し肉
 metaitem.food.sandwich.veggie.large.tooltip=これだけの価値はない.
 metaitem.food.sandwich.cheese.large.tooltip=チーズに心を向ける.
-metaitem.food.sandwich.bacon.large.tooltip=For Women! (and feminine Men)
+metaitem.food.sandwich.bacon.large.tooltip=For Women! (and feminine Men) //TODO
 metaitem.food.sandwich.steak.large.tooltip="Steamed Hams"と呼ばないように
 
 metaitem.food.burger.meat.name=ミートバーガー
@@ -452,6 +444,7 @@ gregtechfoodoption.machine.cuisine_assembler.uiv.tooltip=積極的なピザ作�
 gregtechfoodoption.machine.cuisine_assembler.uxv.tooltip=積極的なピザ作り
 gregtechfoodoption.machine.cuisine_assembler.opv.tooltip=積極的なピザ作り
 
+
 metaitem.component.bacon.name=焼いていないベーコン
 metaitem.food.bacon.name=ベーコン
 metaitem.food.bacon.tooltip=焼いてあるよ
@@ -462,11 +455,11 @@ tile.gtfo_metal_casing.casing_bismuth_bronze.name=食品安全仕様ビスマス
 
 material.gtfo_sludge=スラッジ
 metaitem.food.chum.name=チャム
-metaitem.food.chum.tooltip=Chum is Fum!
+metaitem.food.chum.tooltip=Chum is Fum! //TODO
 metaitem.food.chum_on_a_stick.name=棒に刺したチャム
-metaitem.food.chum_on_a_stick.tooltip=Don't forget to try our Chum-balaya
+metaitem.food.chum_on_a_stick.tooltip=Don't forget to try our Chum-balaya //TODO
 metaitem.food.burger.chum.name=チャムバーガー
-metaitem.food.burger.chum.tooltip=Chyummy
+metaitem.food.burger.chum.tooltip=Chyummy //TODO
 metaitem.food.fish_rotten.name=発酵した魚
 metaitem.food.fish_rotten.tooltip=塩を添加するべきだった
 metaitem.food.meat_rotten.name=発酵した肉
@@ -574,12 +567,12 @@ metaitem.food.kebab.meat.tooltip=Chengeとしても知られている
 metaitem.barg_meat_dust.name=バルグケバブのもと
 metaitem.barg_meat_dust.tooltip=これは葉の肉の意味だ... 本当?
 metaitem.component.kebab.barg.name=未加熱のバルグケバブ
-metaitem.component.kebab.barg.tooltip=Barg bargi Bargiun Bargi
+metaitem.component.kebab.barg.tooltip=Barg bargi Bargiun Bargi //TODO
 metaitem.food.kebab.barg.name=バルグケバブ
 metaitem.food.kebab.barg.tooltip=クビデに...ステップを減らしただけでは?!
 
 metaitem.component.kebab.onion.name=未加熱のオニオンケバブ
-metaitem.component.kebab.onion.tooltip=Nail Your Cries!
+metaitem.component.kebab.onion.tooltip=Nail Your Cries! //TODO
 metaitem.food.kebab.onion.name=オニオンケバブ
 metaitem.food.kebab.onion.tooltip=今、泣いているのは誰だ?!
 
@@ -590,7 +583,7 @@ metaitem.food.kebab.tomato.tooltip=彼は新しいMessaiahだ
 
 metaitem.component.kebab.carrot.name=未加熱のニンジンケバブ
 metaitem.food.kebab.carrot.name=ニンジンケバブ
-metaitem.food.kebab.carrot.tooltip=BigChungus
+metaitem.food.kebab.carrot.tooltip=BigChungus //TODO
 
 metaitem.component.kebab.fat.name=未加熱の脂身ケバブ
 metaitem.component.kebab.fat.tootip=調理したらジューシーになるだろう!
@@ -600,7 +593,7 @@ metaitem.food.kebab.fat.tooltip=実はヘルシー!
 metaitem.component.kebab.chum.name=未加熱のチャム
 metaitem.component.kebab.chum.tooltip=良くない...
 metaitem.food.kebab.chum.name=チャムケバブ
-metaitem.food.kebab.chum.tooltip=Yes It's Chummy
+metaitem.food.kebab.chum.tooltip=Yes It's Chummy //TODO
 
 metaitem.food.kebab.chum.bucket.name=ミックスチャムケバブバケツ
 metaitem.food.kebab.chum.bucket.tooltip=撒き餌のバケツではない...
@@ -611,7 +604,7 @@ metaitem.food.kebab.soltani.tooltip=EV ケバブ (Voltage In: Delicious!)
 metaitem.food.juice.apple.name=リンゴジュース
 metaitem.food.juice.orange.name=オレンジジュース
 metaitem.food.juice.apple.tooltip=Minecraftのリンゴは黄色だから
-metaitem.food.juice.orange.tooltip=WaterPortuguese
+metaitem.food.juice.orange.tooltip=WaterPortuguese //TODO
 
 
 material.gtfo_stearin=液体油脂 (ステアリン)
@@ -620,17 +613,18 @@ material.gtfo_sodium_stearate=ステアリン酸ナトリウム (石鹸)
 material.gtfo_citric_acid=クエン酸
 
 item.gt.tool.butchery_knife.hv.name=%sの電動肉切り包丁 (HV)
-item.gt.tool.butchery_knife.hv.tooltip=§9Mob Delivinizer §c4000
+item.gt.tool.butchery_knife.hv.tooltip=§9Mob Delivinizer §c4000 //TODO
 
 enchantment.level.0=I
-enchantment.level.6=VI
 enchantment.level.7=VII
+enchantment.level.8=VIII
 enchantment.level.11=XI
-enchantment.level.16=XVI
-enchantment.level.28=XXVIII
-enchantment.level.48=XLVIII
-enchantment.level.83=LXXXIII
-enchantment.level.145=CXLV
+enchantment.level.12=XII
+enchantment.level.17=XVII
+enchantment.level.29=XXVIV
+enchantment.level.49=XLVIV
+enchantment.level.84=LXXXIV
+enchantment.level.146=CXLVI
 
 gregtechfoodoption.chat.food_buff=自分の成長を目の当たりにすると, 新しいタイプの食べ物が欲しくなってくる.
 
@@ -676,7 +670,6 @@ gregtechfoodoption.gui.mob_age_sorter_mode.disabled=成体のみ移動: クリ�
 gregtechfoodoption.gui.mob_age_sorter_mode.enabled=子供のみ移動: クリックして成体のみを移動.
 gregtechfoodoption.recipe.accepted_mobs_on_top=上面に%sが必要 
 
-# seeds
 metaitem.seed.onion.name=タマネギの種
 metaitem.component.soybean.name=大豆
 metaitem.seed.unknown.name=未解析のGTFOの種
@@ -744,7 +737,7 @@ gregtechfoodoption.planks.rainbowwood.name=虹の木の木材
 metaitem.food.ice_cream.plain.name=プレーンアイスクリーム
 metaitem.food.ice_cream.plain.tooltip=アイスのような味, かな?
 metaitem.food.ice_cream.chum.name=チャムアイスクリーム
-metaitem.food.ice_cream.chum.tooltip=Creamy and Fum!
+metaitem.food.ice_cream.chum.tooltip=Creamy and Fum! //TODO
 metaitem.food.ice_cream.vanilla.name=バニラアイスクリーム
 metaitem.food.ice_cream.vanilla.tooltip=Version 1.12.2
 metaitem.food.ice_cream.chocolate.name=チョコレートアイスクリーム
@@ -764,16 +757,15 @@ metaitem.food.ice_cream.chip.tooltip=https://tenor.com/view/cat-swim-in-milk-cat
 metaitem.food.ice_cream.rainbow.name=レインボーアイスクｒ－ム
 metaitem.food.ice_cream.rainbow.tooltip=虹のような複雑な味がする
 
-
-material.gtfo_skimmed_milk=脱脂乳
-material.gtfo_cream=クリーム
-material.gtfo_soy_lecithin=大豆レシチン
-material.gtfo_raw_soybean_oil=未加工の大豆油
-material.gtfo_hydrated_soybean_oil=水和大豆油
-material.gtfo_soybean_oil=精製大豆油
-material.gtfo_pasteurized_milk=低温殺菌牛乳
-material.gtfo_milk_colloid=牛乳コロイド
-material.gtfo_ice_cream_mixture=アイスクリームミックス
+material.gtfo_skimmed_milk=Skim Milk //TODO
+material.gtfo_cream=Cream //TODO
+material.gtfo_soy_lecithin=Soy Lecithin //TODO
+material.gtfo_raw_soybean_oil=Raw Soybean Oil //TODO
+material.gtfo_hydrated_soybean_oil=Hydrated Soybean Oil //TODO
+material.gtfo_soybean_oil=Refined Soybean Oil //TODO
+material.gtfo_pasteurized_milk=Pasteurized Milk //TODO
+material.gtfo_milk_colloid=Milk Colloid //TODO
+material.gtfo_ice_cream_mixture=Ice Cream Mixture //TODO
 
 metaitem.vanillylmandelic_acid_dust.name=バニリルマンデル酸
 metaitem.vanilglycolic_acid_dust.name=バニルグリコール酸
