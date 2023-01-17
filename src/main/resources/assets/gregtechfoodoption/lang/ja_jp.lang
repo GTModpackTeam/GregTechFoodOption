@@ -757,15 +757,15 @@ metaitem.food.ice_cream.chip.tooltip=https://tenor.com/view/cat-swim-in-milk-cat
 metaitem.food.ice_cream.rainbow.name=レインボーアイスクｒ－ム
 metaitem.food.ice_cream.rainbow.tooltip=虹のような複雑な味がする
 
-material.gtfo_skimmed_milk=Skim Milk //TODO
-material.gtfo_cream=Cream //TODO
-material.gtfo_soy_lecithin=Soy Lecithin //TODO
-material.gtfo_raw_soybean_oil=Raw Soybean Oil //TODO
-material.gtfo_hydrated_soybean_oil=Hydrated Soybean Oil //TODO
-material.gtfo_soybean_oil=Refined Soybean Oil //TODO
-material.gtfo_pasteurized_milk=Pasteurized Milk //TODO
-material.gtfo_milk_colloid=Milk Colloid //TODO
-material.gtfo_ice_cream_mixture=Ice Cream Mixture //TODO
+material.gtfo_skimmed_milk=脱脂乳
+material.gtfo_cream=クリーム
+material.gtfo_soy_lecithin=大豆レシチン
+material.gtfo_raw_soybean_oil=未加工の大豆油
+material.gtfo_hydrated_soybean_oil=水和大豆油
+material.gtfo_soybean_oil=精製大豆油
+material.gtfo_pasteurized_milk=低温殺菌牛乳
+material.gtfo_milk_colloid=牛乳コロイド
+material.gtfo_ice_cream_mixture=アイスクリームミックス
 
 metaitem.vanillylmandelic_acid_dust.name=バニリルマンデル酸
 metaitem.vanilglycolic_acid_dust.name=バニルグリコール酸
