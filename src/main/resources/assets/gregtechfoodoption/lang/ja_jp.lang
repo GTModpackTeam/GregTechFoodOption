@@ -165,16 +165,16 @@ gregtechfoodoption.machine.bioreactor.ev.name=発展型小型バイオリアク�
 gregtechfoodoption.machine.bioreactor.iv.name=発展型小型バイオリアクター
 metaitem.bacillus.culture.name=枯草菌菌床
 metaitem.lactobacillus.culture.name=ラクトバチルスペントーシス菌床
-metaitem.food.etirps.name=Etirps™  //TODO
+metaitem.food.etirps.name=エティルプス™
 metaitem.food.lemon.name=レモン
 metaitem.food.lime.name=ライム
 metaitem.food.sparkling_water.name=スパークリングウォーター
 metaitem.component.plastic_bottle.name=プラボトル
 metaitem.food.apple_hard_candy.name=リンゴのハードキャンディ
 metaitem.component.cored_apple.name=かじったリンゴ
-metaitem.hard_candy_plate_dense.name=Hard Candy Resin  //TODO
-metaitem.hard_candy_plate.name=Hard Candy Sheet  //TODO
-metaitem.crushed_poppy_dust.name=Crushed Poppy  //TODO
+metaitem.hard_candy_plate_dense.nameハードキャンディレジン
+metaitem.hard_candy_plate.name=ハードキャンディシート
+metaitem.crushed_poppy_dust.name=砕いたケシの実
 metaitem.diphenylamine_dust.name=ジフェニルアミン
 metaitem.phenothiazine_dust.name=フェノチアジン
 metaitem.codeine_dust.name=コデイン
@@ -210,7 +210,7 @@ material.gtfo_10-phenothiazine-2-propyl_chloride=10-フェノチアジン-2-プ�
 material.gtfo_hfcs_solution=高果糖コーンシロップ溶液
 material.gtfo_glucose_solution=グルコース溶液
 material.gtfo_apple_syrup=リンゴシロップ
-material.gtfo_etirps=Etirps™  //TODO
+material.gtfo_etirps=エティルプス™
 
 gregtechfoodoption.machine.slicer.lv.name=基本型スライス機
 gregtechfoodoption.machine.slicer.mv.name=発展型スライス機
@@ -250,7 +250,7 @@ metaitem.food.bag_of_chips.tooltip=大量の炭水化物と一緒に
 metaitem.food.syals.name=ポテトチップス (袋)
 metaitem.food.syals.tooltip=おいしい空気で満たされている
 metaitem.food.french_fries.name=フライドポテト
-metaitem.food.french_fries.tooltip=Now included with Frenchmen! //TODO
+metaitem.food.french_fries.tooltip=フランス人も一緒に
 metaitem.component.bag_used.name=紙袋 (ゴミ)
 metaitem.component.potato.fried_strip.name=フライドポテト
 metaitem.component.potato.blanched_strip.name=ブランチングした細切りジャガイモ
@@ -340,7 +340,7 @@ metaitem.food.sandwich.bacon.tooltip=「究極」のサンドウィッチ (infin
 metaitem.food.sandwich.steak.tooltip=蒸し肉
 metaitem.food.sandwich.veggie.large.tooltip=これだけの価値はない.
 metaitem.food.sandwich.cheese.large.tooltip=チーズに心を向ける.
-metaitem.food.sandwich.bacon.large.tooltip=For Women! (and feminine Men) //TODO
+metaitem.food.sandwich.bacon.large.tooltip=女性向け! (もちろん男性も)
 metaitem.food.sandwich.steak.large.tooltip="Steamed Hams"と呼ばないように
 
 metaitem.food.burger.meat.name=ミートバーガー
@@ -546,7 +546,7 @@ gregtechfoodoption.tooltip.potion.header=§6効果:
 metaitem.tough_meat_dust.name=強化肉
 metaitem.cooked_meat_ingot.name=焼肉インゴット
 metaitem.component.scrap_meat.name=スクラップ状の肉
-metaitem.component.scrap_meat.tooltip=普通食べない部分, 私は判断しませんが
+metaitem.component.scrap_meat.tooltip=普通は食べない部分, 私は判断しませんが
 
 metaitem.component.skewer.name=串
 metaitem.component.skewer.tooltip=そうだね, 食べにくいよね!
@@ -567,12 +567,12 @@ metaitem.food.kebab.meat.tooltip=Chengeとしても知られている
 metaitem.barg_meat_dust.name=バルグケバブのもと
 metaitem.barg_meat_dust.tooltip=これは葉の肉の意味だ... 本当?
 metaitem.component.kebab.barg.name=未加熱のバルグケバブ
-metaitem.component.kebab.barg.tooltip=Barg bargi Bargiun Bargi //TODO
+metaitem.component.kebab.barg.tooltip=バーグバーギバーギンバーギ
 metaitem.food.kebab.barg.name=バルグケバブ
 metaitem.food.kebab.barg.tooltip=クビデに...ステップを減らしただけでは?!
 
 metaitem.component.kebab.onion.name=未加熱のオニオンケバブ
-metaitem.component.kebab.onion.tooltip=Nail Your Cries! //TODO
+metaitem.component.kebab.onion.tooltip=黒板を引っ掻かないで!
 metaitem.food.kebab.onion.name=オニオンケバブ
 metaitem.food.kebab.onion.tooltip=今、泣いているのは誰だ?!
 
@@ -583,7 +583,7 @@ metaitem.food.kebab.tomato.tooltip=彼は新しいMessaiahだ
 
 metaitem.component.kebab.carrot.name=未加熱のニンジンケバブ
 metaitem.food.kebab.carrot.name=ニンジンケバブ
-metaitem.food.kebab.carrot.tooltip=BigChungus //TODO
+metaitem.food.kebab.carrot.tooltip=ビッグチャンガス
 
 metaitem.component.kebab.fat.name=未加熱の脂身ケバブ
 metaitem.component.kebab.fat.tootip=調理したらジューシーになるだろう!
@@ -604,7 +604,7 @@ metaitem.food.kebab.soltani.tooltip=EV ケバブ (Voltage In: Delicious!)
 metaitem.food.juice.apple.name=リンゴジュース
 metaitem.food.juice.orange.name=オレンジジュース
 metaitem.food.juice.apple.tooltip=Minecraftのリンゴは黄色だから
-metaitem.food.juice.orange.tooltip=WaterPortuguese //TODO
+metaitem.food.juice.orange.tooltip=オレンジジュースはポルトガル水
 
 
 material.gtfo_stearin=液体油脂 (ステアリン)
@@ -613,7 +613,7 @@ material.gtfo_sodium_stearate=ステアリン酸ナトリウム (石鹸)
 material.gtfo_citric_acid=クエン酸
 
 item.gt.tool.butchery_knife.hv.name=%sの電動肉切り包丁 (HV)
-item.gt.tool.butchery_knife.hv.tooltip=§9Mob Delivinizer §c4000 //TODO
+item.gt.tool.butchery_knife.hv.tooltip=§9モブ絶命器§c4000
 
 enchantment.level.0=I
 enchantment.level.7=VII
@@ -737,7 +737,7 @@ gregtechfoodoption.planks.rainbowwood.name=虹の木の木材
 metaitem.food.ice_cream.plain.name=プレーンアイスクリーム
 metaitem.food.ice_cream.plain.tooltip=アイスのような味, かな?
 metaitem.food.ice_cream.chum.name=チャムアイスクリーム
-metaitem.food.ice_cream.chum.tooltip=クリーミー＆ファム! //TODO
+metaitem.food.ice_cream.chum.tooltip=クリーミー＆ファム!
 metaitem.food.ice_cream.vanilla.name=バニラアイスクリーム
 metaitem.food.ice_cream.vanilla.tooltip=Version 1.12.2
 metaitem.food.ice_cream.chocolate.name=チョコレートアイスクリーム
