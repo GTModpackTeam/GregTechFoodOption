@@ -661,7 +661,7 @@ gregtechfoodoption.machine.mob_extractor.uiv.name=先端型モブ抽出機 III
 gregtechfoodoption.machine.mob_extractor.uxv.name=先端型モブ抽出機 IV
 gregtechfoodoption.machine.mob_extractor.opv.name=伝説のモブ抽出機
 
-gregtechfoodoption.machine.mob_extractor.tooltip=エンティティエッセンス抽出が電気時代に突入
+gregtechfoodoption.machine.mob_extractor.tooltip=エンティティからのエッセンス抽出が電気時代に突入
 
 recipemap.mob_extractor.name=モブ抽出機
 mob_extractor.player_name=プレイヤー
@@ -673,7 +673,7 @@ gregtechfoodoption.recipe.accepted_mobs_on_top=上面に%sが必要
 metaitem.seed.onion.name=タマネギの種
 metaitem.component.soybean.name=大豆
 metaitem.seed.unknown.name=未解析のGTFOの種
-metaitem.seed.unknown.tooltip=クラフトで種を得られる/n§cクラフトした種は植えなおす必要がある (ロジックのせい)
+metaitem.seed.unknown.tooltip=クラフトで種を得られる/n§cGTFOの種は右クリックで収穫できない
 metaitem.seed.soy.name=大豆の種
 metaitem.seed.tomato.name=トマトの種
 metaitem.seed.grape.name=ブドウの種
@@ -754,7 +754,7 @@ metaitem.food.ice_cream.bear.name=クマのアイスクリーム
 metaitem.food.ice_cream.bear.tooltip=Jr.賞は「ベーキングオーブン」を一度は手に入れた人
 metaitem.food.ice_cream.chip.name=ポテチアイスクリーム
 metaitem.food.ice_cream.chip.tooltip=https://tenor.com/view/cat-swim-in-milk-cat-kitty-milk-milk-cat-gif-23473453
-metaitem.food.ice_cream.rainbow.name=レインボーアイスクｒ－ム
+metaitem.food.ice_cream.rainbow.name=レインボーアイスクリ－ム
 metaitem.food.ice_cream.rainbow.tooltip=虹のような複雑な味がする
 
 material.gtfo_skimmed_milk=脱脂乳
