@@ -206,7 +206,7 @@ material.gtfo_cough_syrup=咳止めシロップ
 material.gtfo_apple_candy_syrup=りんご飴シロップ
 material.gtfo_purple_drink=パープルドリンク
 material.gtfo_carbonated_water=炭酸水
-material.gtfo_10-phenothiazine-2-propyl_chloride=10-フェノチアジン-2-プロピル塩化物
+material.gtfo_x-phenothiazine-ii-propyl_chloride=10-フェノチアジン-2-プロピル塩化物
 material.gtfo_hfcs_solution=高果糖コーンシロップ溶液
 material.gtfo_glucose_solution=グルコース溶液
 material.gtfo_apple_syrup=リンゴシロップ
@@ -681,8 +681,9 @@ metaitem.seed.cucumber.name=キュウリの種
 
 metaitem.seed.onion.tooltip=ヤングオニオンの育成に
 
-death.attack.extermination=%sは安全確認を怠った
-death.attack.extraction=%sは内臓を摘出された
+death.attack.extermination=%s は安全確認を怠った
+death.attack.extraction=%s は内臓を摘出された
+death.attack.cyanide=%s からアーモンド臭がする
 gregtechfoodoption.machine.mob_exterminator.tooltip.warning=§cこれは容易にあなたを傷つけるでしょう!
 
 # Farmer
@@ -859,3 +860,31 @@ gregtechfoodoption.recipe.cause_damage=モブに%dダメージを与える
 material.gtfo_nilk=ニルク
 metaitem.food.nilk.name=ニルク
 metaitem.food.nilk.tooltip=ニルク
+
+gregtechfoodoption.tooltip.food.lacing=§2面白い化学物質が混入しているかもしれない
+gregtechfoodoption.fluid.lacing=§2缶詰機で100 mBにアイテムを混入させるのに使われる
+gregtechfoodoption.cyanide.1=§cとても気持ち悪くなってきた...
+gregtechfoodoption.cyanide.2=§cく、苦しい...
+gregtechfoodoption.cyanide.3=§cｵﾛﾛﾛﾛﾛﾛﾛﾛﾛﾛﾛﾛﾛﾛﾛﾛﾛﾛﾛﾛﾛﾛﾛﾛﾛﾛﾛﾛﾛﾛﾛﾛﾛﾛﾛﾛﾛﾛﾛﾛﾛﾛﾛﾛﾛﾛﾛﾛﾛﾛﾛﾛﾛﾛ
+metaitem.food.gel_caplet.name=ゼラチンカプレット
+metaitem.food.gel_caplet.tooltip=青酸カリ中毒のプラセボ対照試験の実施に向けて
+metaitem.component.caplet_cap.name=カプレットのふた
+metaitem.component.caplet_body.name=カプレット本体
+metaitem.paracetamol_dust.name=アセトアミノフェン
+metaitem.paracetamol_dust_small.name=小さなアセトアミノフェンの粉
+metaitem.food.paracetamol_caplet.name=アセトアミノフェンカプレット
+metaitem.food.handful_paracetamol.name=適量のアセトアミノフェンカプレット
+metaitem.sodium_cyanide_dust.name=シアン化ナトリウム
+metaitem.sodium_cyanide_dust_small.name=小さなシアン化ナトリウムの粉
+metaitem.aminophenol_dust.name=p-アミノフェノール
+metaitem.iinitrophenol_dust.name=2-ニトロフェノール
+metaitem.ivnitrophenol_dust.name=4-ニトロフェノール
+metaitem.plutonium_241_caplet.name=プルトニウム241カプレット
+metaitem.iv_bag.name=IVバッグ
+
+material.gtfo_acetic_anhydride=無水酢酸
+material.gtfo_heated_water=熱水
+material.gtfo_gelatin_solution=ゼラチン溶液
+material.gtfo_gelatin_solution_no_bubbles=ゼラチン溶液 (脱気)
+material.gtfo_sodium_hypochlorite=次亜塩素酸ナトリウム
+material.gtfo_nitrophenols=ニトロフェノール
