@@ -73,24 +73,14 @@ public class GTFOSimpleMachineMetaTileEntity extends SimpleMachineMetaTileEntity
                 .setButtonTexture(GuiTextures.BUTTON_OVERCLOCK));
 
         if (exportItems.getSlots() + exportFluids.getTanks() <= 9) {
-            ImageWidget logo = new ImageWidget(152, 62 + yOffset, 17, 17,
+            ImageWidget logo = new ImageWidget(152, 63 + yOffset, 17, 17,
                     GTValues.XMAS.get() ? GTFOGuiTextures.GTFO_LOGO_XMAS : GTFOGuiTextures.GTFO_LOGO)
                     .setIgnoreColor(true);
 
             if (this.circuitInventory != null) {
-                SlotWidget circuitSlot = new GhostCircuitSlotWidget(circuitInventory, 0, 124, 62 + yOffset)
-                        .setBackgroundTexture(GuiTextures.SLOT, getCircuitSlotOverlay());
-                builder.widget(getCircuitSlotTooltip(circuitSlot)).widget(logo)
-                        .widget(new ClickButtonWidget(115, 62 + yOffset, 9, 9, "",
-                                click -> circuitInventory.addCircuitValue(click.isShiftClick ? 5 : 1))
-                                .setShouldClientCallback(true)
-                                .setButtonTexture(GuiTextures.BUTTON_INT_CIRCUIT_PLUS)
-                                .setDisplayFunction(() -> circuitInventory.hasCircuitValue() && circuitInventory.getCircuitValue() < IntCircuitIngredient.CIRCUIT_MAX))
-                        .widget(new ClickButtonWidget(115, 71 + yOffset, 9, 9, "",
-                                click -> circuitInventory.addCircuitValue(click.isShiftClick ? -5 : -1))
-                                .setShouldClientCallback(true)
-                                .setButtonTexture(GuiTextures.BUTTON_INT_CIRCUIT_MINUS)
-                                .setDisplayFunction(() -> circuitInventory.hasCircuitValue() && circuitInventory.getCircuitValue() > IntCircuitIngredient.CIRCUIT_MIN));
+                SlotWidget circuitSlot = new GhostCircuitSlotWidget(this.circuitInventory, 0, 124, 62 + yOffset)
+                        .setBackgroundTexture(GuiTextures.SLOT, this.getCircuitSlotOverlay());
+                builder.widget(circuitSlot.setConsumer(this::getCircuitSlotTooltip)).widget(logo);
             }
         }
         return builder;

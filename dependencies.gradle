@@ -48,15 +48,15 @@ dependencies {
     implementation "curse.maven:infinitylib-251396:3317119"
     implementation "curse.maven:spice-of-life-carrot-edition-277616:2959847"
 
-    implementation "curse.maven:enderio-64578:3328811"
-    implementation "curse.maven:endercore-231868:2972849"
+    implementation "curse.maven:enderio-64578:4674244"
+    implementation "curse.maven:endercore-231868:4671384"
     implementation "info.loenwind.autoconfig:AutoConfig:${project.minecraft.version}-1.0.2"
     implementation "info.loenwind.autosave:AutoSave:${project.minecraft.version}-1.0.11"
 
     //compile "curse.maven:spiceoflife-220811:2571951"
 
-    //implementation files("libs/gregtech-1.12.2-2.6.2-beta-dev.jar")
-    implementation rfg.deobf("curse.maven:gregtech-ce-unofficial-557242:4641113")
+    implementation files("libs/gregtech-1.12.2-2.7.2-beta-dev-b8c7c30.jar")
+    //implementation rfg.deobf("curse.maven:gregtech-ce-unofficial-557242:4641113")
     implementation files("libs/AppleSkin-mc1.12-1.0.9.jar")
     implementation files("libs/groovyscript-0.4.0.jar")
     implementation files("libs/NuclearCraft-2o.6.0-1.12.2.jar")
