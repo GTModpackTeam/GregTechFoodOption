@@ -26,7 +26,7 @@ dependencies {
     annotationProcessor "com.google.guava:guava:${guava_version}-jre"
     annotationProcessor "org.ow2.asm:asm-debug-all:${asm_debug_version}"
 
-    implementation 'zone.rong:mixinbooter:7.0'
+    implementation rfg.deobf("curse.maven:mixin-booter-419286:4828995")
 
     implementation "CraftTweaker2:CraftTweaker2-MC1120-Main:1.12-4.1.20.554"
     //implementation rfg.deobf("curse.maven:gregtech-ce-unofficial-557242:4701483")
@@ -44,7 +44,7 @@ dependencies {
     //compile "com.enderio.core:EnderCore:${mc_version}-0.5.76:dev"
     //compile "com.enderio:EnderIO:${mc_version}-5.3.70"
 
-    implementation "curse.maven:agricraft-225635:3317747"
+    compileOnly "curse.maven:agricraft-225635:3317747"
     implementation "curse.maven:infinitylib-251396:3317119"
     implementation "curse.maven:spice-of-life-carrot-edition-277616:2959847"
 
@@ -55,7 +55,7 @@ dependencies {
 
     //compile "curse.maven:spiceoflife-220811:2571951"
 
-    implementation files("libs/gregtech-1.12.2-2.7.3-beta-dev.jar")
+    implementation files("libs/gregtech-1.12.2-2.8.0-beta-dev.jar")
     implementation files("libs/AppleSkin-mc1.12-1.0.9.jar")
     implementation files("libs/groovyscript-0.6.1.jar")
     implementation files("libs/NuclearCraft-2o.6.0-1.12.2.jar")

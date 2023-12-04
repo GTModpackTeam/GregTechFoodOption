@@ -275,8 +275,8 @@ tile.gtfo_casing.reinforced_adobe_bricks.name=Reinforced Adobe Bricks
 gregtechfoodoption.multiblock.electric_baking_oven.tooltip.1=Temperature: §a%dK§7.
 gregtechfoodoption.multiblock.electric_baking_oven.tooltip.2=Not enough energy can be inputted to reach the target!
 gregtechfoodoption.multiblock.electric_baking_oven.tooltip.3=Set target temperature:
-gregtechfoodoption.multiblock.electric_baking_oven.tooltip.4=Consumption: %d EU/t.
-gregtechfoodoption.multiblock.electric_baking_oven.tooltip.5=Target temperature: §a%dK§7.
+gregtechfoodoption.multiblock.electric_baking_oven.tooltip.4=§7Consumption: §r%d EU/t.
+gregtechfoodoption.multiblock.electric_baking_oven.tooltip.5=§7Target temperature: §a%dK§7.
 gregtechfoodoption.multiblock.electric_baking_oven.tooltip.6=Toggle adaptability (sets temperature itself):
 gregtechfoodoption.multiblock.electric_baking_oven.temp_increment=Increase target temperature by §a+5K§r/n§7The Electric Baking Oven consumes more Power as its Temperature increases/n§cOnly works when Adaptable Mode is off
 gregtechfoodoption.multiblock.electric_baking_oven.temp_decrement=Decrease target temperature by §c-5K§r/n§7The Electric Baking Oven consumes more Power as its Temperature increases/n§cOnly works when Adaptable Mode is off
@@ -739,6 +739,10 @@ gregtechfoodoption.leaves.nutmeg.name=Nutmeg Leaves
 gregtechfoodoption.log.nutmeg.name=Nutmeg Wood
 gregtechfoodoption.sapling.nutmeg.name=Nutmeg Sapling
 gregtechfoodoption.planks.nutmeg.name=Nutmeg Planks
+gregtechfoodoption.leaves.coconut.name=Coconut Leaves
+gregtechfoodoption.log.coconut.name=Coconut Wood
+gregtechfoodoption.sapling.coconut.name=Coconut Sapling
+gregtechfoodoption.planks.coconut.name=Coconut Planks
 
 metaitem.food.ice_cream.plain.name=Plain Ice Cream
 metaitem.food.ice_cream.plain.tooltip=Tastes like Ice, I guess
@@ -1132,6 +1136,10 @@ metaitem.food.etirps_cranberry.name=Etirps Cranberry
 metaitem.food.berry_medley.name=Berry Medley
 gregtech.material.gtfo_lingonberry_jam=Lingonberry Jam
 gregtech.material.gtfo_elderberry_jam=Elderberry Jam
+gregtech.material.gtfo_cranberry_extract=Cranberry Extract
+gregtech.material.gtfo_etirps_cranberry=Etirps Cranberry
+gregtech.material.gtfo_cranberry_sludge=Cranberry Sludge
+gregtech.material.gtfo_cranberry_soda_syrup=Cranberry Soda Syrup
 
 gregtechfoodoption.berry.description.0=§4Grows very slowly by itself!
 gregtechfoodoption.berry.description.1=§bGrows faster in higher tiers
@@ -1139,3 +1147,9 @@ gregtechfoodoption.berry.description.2=Place §5three§r grown berry bushes of t
 gregtechfoodoption.berry.description.3=§4The 3x3 centered on the bush must not be filled!
 
 gregtechfoodoption.blocked=This blocks a berry bush at %s!
+
+metaitem.component.coconut.name=Coconut
+metaitem.component.coconut.tooltip=A cold-blooded Killer
+
+gregtechfoodoption.seed.0=§bCan be used as a Seed
+gregtechfoodoption.seed.root_crop=§rThe Crop can §4only§r be harvested §4just before§r the Seed is harvestable!
