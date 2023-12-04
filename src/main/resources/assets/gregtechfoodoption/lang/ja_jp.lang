@@ -280,8 +280,8 @@ tile.gtfo_casing.reinforced_adobe_bricks.name=強化アドベレンガ
 gregtechfoodoption.multiblock.electric_baking_oven.tooltip.1=温度: §a%dK§7
 gregtechfoodoption.multiblock.electric_baking_oven.tooltip.2=設定温度に達するためのエネルギーが足りません!
 gregtechfoodoption.multiblock.electric_baking_oven.tooltip.3=温度設定:
-gregtechfoodoption.multiblock.electric_baking_oven.tooltip.4=消費: %d EU/t
-gregtechfoodoption.multiblock.electric_baking_oven.tooltip.5=設定温度: §a%dK§7
+gregtechfoodoption.multiblock.electric_baking_oven.tooltip.4=§7消費: §r%d EU/t
+gregtechfoodoption.multiblock.electric_baking_oven.tooltip.5=§7設定温度: §a%dK§7
 gregtechfoodoption.multiblock.electric_baking_oven.tooltip.6=自動温度調整:
 gregtechfoodoption.multiblock.electric_baking_oven.temp_increment=設定温度を§a+5K§r/n§7電気式オーブンの消費電力は温度に応じて上昇します/n§c自動温度調整がOFFの時のみ有効です
 gregtechfoodoption.multiblock.electric_baking_oven.temp_decrement=設定温度を§c-5K§r/n§7電気式オーブンの消費電力は温度に応じて上昇します/n§c自動温度調整がOFFの時のみ有効です
@@ -743,6 +743,10 @@ gregtechfoodoption.leaves.nutmeg.name=ナツメグの葉
 gregtechfoodoption.log.nutmeg.name=ナツメグの原木
 gregtechfoodoption.sapling.nutmeg.name=ナツメグの苗木
 gregtechfoodoption.planks.nutmeg.name=ナツメグの木材
+gregtechfoodoption.leaves.coconut.name=ココナッツの葉
+gregtechfoodoption.log.coconut.name=ココナッツの原木
+gregtechfoodoption.sapling.coconut.name=ココナッツの苗木
+gregtechfoodoption.planks.coconut.name=ココナッツの木材
 
 metaitem.food.ice_cream.plain.name=プレーンアイスクリーム
 metaitem.food.ice_cream.plain.tooltip=アイスのような味、かな?
@@ -1141,10 +1145,15 @@ gregtech.material.gtfo_etirps_cranberry=エティルプス・クランベリー
 gregtech.material.gtfo_cranberry_sludge=濃縮したクランベリー抽出物
 gregtech.material.gtfo_cranberry_soda_syrup=クランベリーソーダシロップ
 
-
 gregtechfoodoption.berry.description.0=§4成長が非常に遅い!
 gregtechfoodoption.berry.description.1=§b高ティアほど成長が早い
 gregtechfoodoption.berry.description.2=ティア上昇させるためには、前のティアのベリーの茂みを§53つ§r、ティアを上昇させたい茂みを中心とした3x3の範囲内に配置する。
 gregtechfoodoption.berry.description.3=§4茂みを中心とした3x3は、最低1つは空気ブロックでなければならない!
 
 gregtechfoodoption.blocked=周囲をブロックで囲まれているため、%sにはベリーの茂みを設置できません!
+
+metaitem.component.coconut.name=ココナッツ
+metaitem.component.coconut.tooltip=冷血な殺人鬼
+
+gregtechfoodoption.seed.0=§b種として利用できます
+gregtechfoodoption.seed.root_crop=§r種が収穫できる§4直前のみ§r収穫できます!
