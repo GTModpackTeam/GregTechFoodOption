@@ -845,6 +845,7 @@ metaitem.food.toast.name=トースト
 metaitem.food.sandwich.toast.name=トーストサンドイッチ
 metaitem.food.fish_and_chips.name=フィッシュアンドチップス
 metaitem.food.full_breakfast.name=満腹朝食
+metaitem.food.full_breakfast.tooltip=朝食は半分だけ
 metaitem.food.shepherds_pie.name=シェパーズパイ
 metaitem.food.shepherds_pie.tooltip=中身を考えると、おそらくインダストリアル・パイでしょう。
 metaitem.food.sausage_roll.name=ソーセージロール
