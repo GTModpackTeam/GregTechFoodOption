@@ -1,7 +1,7 @@
 # Japanese translate by MrKo_no
 # 翻訳担当 : MrKo_no
-# Corresponding Version: 1.10.0.2
-# 対応バージョン: 1.10.0.2
+# Corresponding Version: 1.12.0
+# 対応バージョン: 1.12.0
 
 metaitem.phycomyces.culture.name=ヒゲカビ菌床
 metaitem.component.corn.ear.name=トウモロコシ
@@ -689,6 +689,7 @@ metaitem.seed.onion.tooltip=ヤングオニオンの育成に
 death.attack.extermination=%s は安全確認を怠った
 death.attack.extraction=%s は内臓を摘出された
 death.attack.cyanide=%s からアーモンド臭がする
+death.attack.lung_cancer=%s は肺がんで死んだ
 gregtechfoodoption.machine.mob_exterminator.tooltip.warning=§cこれは容易にあなたを傷つけるでしょう!
 
 # Farmer
@@ -846,6 +847,7 @@ metaitem.food.shepherds_pie.tooltip=中身を考えると、おそらくイン�
 metaitem.food.sausage_roll.name=ソーセージロール
 metaitem.food.baked_beans.name=炒り豆
 metaitem.food.beans_on_toast.name=豆トースト
+metaitem.food.beans_on_toast.tooltip="ポレンタのようなものだが、もっとひどい"
 metaitem.food.fried_fish.name=魚フライ
 metaitem.food.battered_fish.name=魚のバターソテー
 metaitem.food.beer.name=ビール
@@ -889,6 +891,11 @@ metaitem.aminophenol_dust.name=p-アミノフェノール
 metaitem.iinitrophenol_dust.name=2-ニトロフェノール
 metaitem.ivnitrophenol_dust.name=4-ニトロフェノール
 metaitem.plutonium_241_caplet.name=プルトニウム241カプレット
+metaitem.food.caplet.chorus.name=発酵したコーラスカプレット
+metaitem.food.caplet.chorus.tooltip=色が変わっただけ?
+metaitem.food.caplet.vibrant.name=バイブラントカプレット
+metaitem.food.caplet.vibrant.tooltip=ただポリモスコビウム五ハロゲン化物の風味はしない
+
 metaitem.iv_bag.name=IVバッグ
 
 gregtech.material.gtfo_acetic_anhydride=無水酢酸
@@ -1147,4 +1154,73 @@ gregtechfoodoption.berry.description.1=§b高ティアほど成長が早い
 gregtechfoodoption.berry.description.2=ティア上昇させるためには、前のティアのベリーの茂みを§53つ§r、ティアを上昇させたい茂みを中心とした3x3の範囲内に配置する。
 gregtechfoodoption.berry.description.3=§4茂みを中心とした3x3は、最低1つは空気ブロックでなければならない!
 
-gregtechfoodoption.blocked=周囲をブロックで囲まれているため、%sにはベリーの茂みを設置できません!
+gregtechfoodoption.blocked=%2$s個の余計なブロックが周囲にあるため、%1$sにベリーの茂みを設置できません!
+
+metaitem.component.coconut.name=ココナッツ
+metaitem.component.coconut.tooltip=冷血な殺人鬼
+
+gregtechfoodoption.seed.0=§b種として利用できます
+gregtechfoodoption.seed.root_crop=§r種が収穫できる§4直前のみ§r収穫できます!
+
+gregtechfoodoption.multiblock.kitchen.no_recipe=レシピアイテムがありません! (または未設定です)
+gregtechfoodoption.multiblock.kitchen.buses_full=アイテムバスが一杯です!
+gregtechfoodoption.multiblock.kitchen.hatches_full=液体ハッチが一杯です!
+gregtechfoodoption.multiblock.kitchen.bad_machines=正しい機械がありません/機械のTierが足りません!
+gregtechfoodoption.multiblock.kitchen.no_ingredients=材料がありません!
+gregtechfoodoption.multiblock.kitchen.probably_fine=レシピを実行中...
+gregtechfoodoption.multiblock.kitchen.order_complete=注文が完了しました!
+
+gregtechfoodoption.multiblock.kitchen.very_dirty=キッチンの掃除が必要です!
+gregtechfoodoption.multiblock.kitchen.order_size=作成数: %s アイテム
+gregtechfoodoption.multiblock.kitchen.dirtiness=汚れ: %s DU
+gregtechfoodoption.multiblock.kitchen.increment_order=作成数を1増やす
+gregtechfoodoption.multiblock.kitchen.decrement_order=作成数を1減らす
+
+
+gregtechfoodoption.fluid.cleaning=清掃能力: §2%s§r DU/L!
+
+gregtechfoodoption.kitchen.recipe.warn=食料関係のアイテムを置いてください!
+
+metaitem.bone_ash_dust.name=骨灰
+metaitem.unfired_porcelain_tile_plate.name=未焼成の磁器タイル
+metaitem.bisque_porcelain_tile_plate.name=無釉薬の磁器タイル
+metaitem.glazed_porcelain_tile_plate.name=艶出しをした磁器タイル
+metaitem.black_glazed_porcelain_tile_plate.name=黒色の艶出しをした磁器タイル
+metaitem.utility.kitchen_recipe.name=キッチンレシピ
+metaitem.utility.kitchen_recipe.tooltip=右クリックでJEIからGTFOレシピを追加! §4シングルブロック§rのレシピがキッチンと連動する。
+gregtechfoodoption.kitchen_recipe.final_result=§3生産 %s
+
+gregtechfoodoption.machine.kitchen.tooltip.1=§4JEIのみ利用可能
+gregtechfoodoption.machine.kitchen.tooltip.2=キッチンレシピで料理関連のレシピを実行する
+gregtechfoodoption.machine.kitchen.tooltip.3=シングルブロック機械を磁器タイルの上に!
+gregtechfoodoption.machine.kitchen.tooltip.4=JEIプレビューより大きいサイズであれば、どのサイズでも構いません.
+gregtechfoodoption.machine.kitchen.tooltip.5=§4効率を維持するには清掃用品が必要です!
+
+gregtechfoodoption.seed.water_crop=水源に設置する必要があります
+
+metaitem.food.pie.fermented_chorus.name=発酵したコーラスパイ
+gregtechfoodoption.potion.enhancedchorus=強化したコーラス
+metaitem.food.sorbet.apple.name=リンゴソルベ
+metaitem.food.sorbet.apricot.name=アプリコットソルベ
+metaitem.food.sorbet.chorus.name=コーラスソルベ
+metaitem.food.sorbet.grape.name=ブドウソルベ
+metaitem.food.sorbet.lime.name=ライムソルベ
+metaitem.food.sorbet.vibrant.name=ヴァイブラントソルベ
+metaitem.food.sorbet.plain.name=ソルベ
+metaitem.food.sorbet.plain.tooltip=歯にとてもいい
+metaitem.food.fermented_chorus.name=発酵したコーラス
+metaitem.food.antaf.name=Antaf™
+
+metaitem.food.naquadah_chips.name=ナクアダポテチ
+metaitem.food.naquadah_chips.tooltip=科学者たちは、それができるかどうかにばかり気を取られ、やるべきかどうかを考えるのを忘れてしまった。
+metaitem.food.sandwich.vibrant.name=ヴァイブラントサンドイッチ
+metaitem.food.sandwich.vibrant.tooltip=それはゼリーとしてまあまあ使えると思います。
+
+gregtech.material.gtfo_ender_pearl_solution=エンダーパール溶液
+gregtech.material.gtfo_ender_sugar_solution=エンダーシュガー溶液
+gregtech.material.gtfo_chorus_juice=コーラスジュース
+gregtech.material.gtfo_fermented_chorus_juice=発酵したコーラスジュース
+gregtech.material.gtfo_antaf=Antaf
+gregtech.material.gtfo_vibrant_extract=ヴァイブラント抽出物
+gregtech.material.gtfo_apricot_extract=アプリコット汁
+gregtech.material.gtfo_grape_extract=ブドウ汁
