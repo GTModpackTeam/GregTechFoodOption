@@ -1103,6 +1103,8 @@ gregtechfoodoption.lacing.info.1=発現効果:
 gregtechfoodoption.lacing.info.2=が%s ticks持続する
 gregtechfoodoption.potion.cyanidepoisoning=青酸中毒
 gregtechfoodoption.potion.antischizo=抗統合失調症
+gregtechfoodoption.potion.lungcancer=肺がん
+
 eating.output.name=返却されるもの
 
 metaitem.component.pelmeni_uncooked.name=未調理のペリメニ
